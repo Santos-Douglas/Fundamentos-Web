@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="Assets/img/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -15,34 +16,66 @@
             <a href="contato.html">contato</a>
         </li>
     </ul>
-    <h1>Para mais informações, entre em contato comigo!</h1>
+    <h1 class="center">Para mais informações, entre em contato comigo!</h1>
 
-    <form>
-        <label for="nome">Nome :</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail :</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto :</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50">
+        <div>
+            <h2>Endereço</h2>
+            <form>
+                <label for="nome">Nome :</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail :</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto :</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <h2>Endereço</h2>
+        <div class="ml-50">
 
-    <p>Av. Chedid Jafet,1931</p>
-    <p>São Paulo - SP</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
-    1d3656.363931902078!2d-46.691009085588064!3d-23.59127758466804!2m3!1f0!2f0!3f0!
-    3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574748a21bcf%3A0x4501ea454dc2ce0!2sAv.%20Chedid%20Jafet%2
-    C%201931%20-%20Vila%20Ol%C3%ADmpia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004543-017!5e0!3m2!
-    1sen!2sbr!4v1652985829047!5m2!1sen!2sbr" width="400" height="250" style="border:0;" 
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Av. Chedid Jafet,1931</p>
+        <p>São Paulo - SP</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+        1d3656.363931902078!2d-46.691009085588064!3d-23.59127758466804!2m3!1f0!2f0!3f0!
+        3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574748a21bcf%3A0x4501ea454dc2ce0!2sAv.%20Chedid%20Jafet%2
+        C%201931%20-%20Vila%20Ol%C3%ADmpia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004543-017!5e0!3m2!
+        1sen!2sbr!4v1652985829047!5m2!1sen!2sbr" width="400" height="250" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+        </div>  
+    </div>
+
+    <hr>
+    <footer>
+        
+        <div class="container">
+           <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social" src="Assets/img/facebook.png" alt="Logo do facebook">
+           </a>
+            
+           <a href="https://www.instagram.com/"target="_blank">
+            <img class="tm-social" src="Assets/img/instagram.png" alt="Logo do instagram">
+           </a>
+            
+           <a href="https://www.linkedin.com/home"target="_blank">
+            <img class="tm-social" src="Assets/img/linkedin.png" alt="Logo do linkedin">
+           </a>
+            
+
+        </div>
+        <p class="center">
+            Direitos reservados por: Douglas Michel &copy;
+        </p>
+    </footer>
+     
 
 </body>
 </html>
